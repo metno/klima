@@ -1,0 +1,40 @@
+klimakverna
+├── config
+│   ├── calibration.tsv
+│   ├── config.yaml
+│   ├── griddes.txt
+│   ├── indicators.tsv
+│   ├── inputs.tsv
+│   ├── periods.tsv
+│   ├── seasons.tsv
+│   └── testcase_2.json
+├── data
+├── inputs 
+├── KAPy-fork
+│   ├── config
+│   │   └── config.yaml
+│   ├── CONTRIBUTING.md
+│   ├── docs
+│   ├── inputs
+│   ├── LICENSE
+│   ├── outputs
+│   ├── README.md
+│   ├── WHATSNEW.md
+│   └── workflow
+│       └── Snakefile
+├── logs
+├── outputs
+│   ├── 1.variables
+│   ├── 3.indicators
+│   ├── 4.commmon_grid
+│   └── testcase_2
+├── README.md
+└── workflow
+    ├── rules
+    │   ├── common_util.smk
+    │   ├── test_case1.smk
+    │   └── testcase_2.smk
+    ├── scripts
+    └── Snakefile
+
+44 directories, 510 files
