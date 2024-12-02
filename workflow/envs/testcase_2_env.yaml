@@ -1,0 +1,14 @@
+name: testcase2
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - python==3.12.0
+  - pandas
+  - snakemake
+  - netcdf4
+  - xarray
+  - yaml
+  - pip
+  - pip:
+    - git+https://github.com/metno/py-mmd-tools.git 
