@@ -3,7 +3,6 @@ from snakemake.utils import min_version
 min_version("6.0")
 configfile: "./config/config.yaml"
 
-
 include: "rules/test_case1.smk"
 include: "rules/common_util.smk"
 include: "rules/test_case2.smk"
